@@ -41,6 +41,12 @@ class HappySadNumberTest {
         assertFalse(number.isHappy(12));
     }
 
+    @Test
+    void givenNumberFifteen_WhenCheck_ThenShouldNotBeHappyNumber() {
+        MagicNumber number = new MagicNumber();
+        assertFalse(number.isHappy(15));
+    }
+
 
 
 }
