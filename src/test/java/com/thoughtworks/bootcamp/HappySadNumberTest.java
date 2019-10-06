@@ -36,11 +36,10 @@ class HappySadNumberTest {
         assertNotEquals(1,number.isHappy(9));
     }
 
-//    @Test
-//    void givenNumberTen_WhenCheck_ThenShouldBeHappyNumber() {
-//        HappySad number = new HappySad();
-//        Assertions.assertEquals(1,number.isHappy(10));
-//    }
+    @Test
+    void givenNumberTen_WhenCheck_ThenShouldBeHappyNumber() {
+        HappySad number = new HappySad();
+        assertTrue(number.isHappy(10));    }
 
 //    @Test
 //    void givenNumberTwelve_WhenCheck_ThenShouldNotBeHappyNumber() {

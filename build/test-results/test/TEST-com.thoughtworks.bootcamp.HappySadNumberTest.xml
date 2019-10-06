@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.thoughtworks.bootcamp.HappySadNumberTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-10-06T05:41:39" hostname="Snehas-MacBook-Pro-2.local" time="0.013">
+<testsuite name="com.thoughtworks.bootcamp.HappySadNumberTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-10-06T05:42:32" hostname="Snehas-MacBook-Pro-2.local" time="0.014">
   <properties/>
-  <testcase name="givenNumberThree_WhenCheck_ThenShouldNotBeHappyNumber()" classname="com.thoughtworks.bootcamp.HappySadNumberTest" time="0.008"/>
+  <testcase name="givenNumberThree_WhenCheck_ThenShouldNotBeHappyNumber()" classname="com.thoughtworks.bootcamp.HappySadNumberTest" time="0.007"/>
   <testcase name="givenNumberSeven_WhenCheck_ThenShouldNotBeHappyNumber()" classname="com.thoughtworks.bootcamp.HappySadNumberTest" time="0.001"/>
-  <testcase name="givenNumberTwo_WhenCheck_ThenShouldNotBeHappyNumber()" classname="com.thoughtworks.bootcamp.HappySadNumberTest" time="0.0"/>
+  <testcase name="givenNumberTwo_WhenCheck_ThenShouldNotBeHappyNumber()" classname="com.thoughtworks.bootcamp.HappySadNumberTest" time="0.001"/>
+  <testcase name="givenNumberTen_WhenCheck_ThenShouldBeHappyNumber()" classname="com.thoughtworks.bootcamp.HappySadNumberTest" time="0.001"/>
   <testcase name="givenNumberNine_WhenCheck_ThenShouldNotBeHappyNumber()" classname="com.thoughtworks.bootcamp.HappySadNumberTest" time="0.002"/>
   <testcase name="givenNumberOne_WhenCheck_ThenShouldBeHappyNumber()" classname="com.thoughtworks.bootcamp.HappySadNumberTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
