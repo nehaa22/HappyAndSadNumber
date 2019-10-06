@@ -13,14 +13,14 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thoughtworks/bootcamp/MagicNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thoughtworks/bootcamp/HappySad.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thoughtworks/bootcamp/HappySad.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/thoughtworks/bootcamp/HappySadNumberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/thoughtworks/bootcamp/HappySadNumberTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.thoughtworks.bootcamp.HappySadNumberTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.thoughtworks.bootcamp.HappySadNumberTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.thoughtworks.bootcamp.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.thoughtworks.bootcamp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.thoughtworks.bootcamp.HappySadNumberTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.thoughtworks.bootcamp.HappySadNumberTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/bootcamp/MagicNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/bootcamp/HappySad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/bootcamp/HappySad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/thoughtworks/bootcamp/HappySadNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thoughtworks/bootcamp/HappySadNumberTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

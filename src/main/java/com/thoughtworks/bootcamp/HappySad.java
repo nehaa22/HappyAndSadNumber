@@ -4,28 +4,22 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HappySad {
-    int lastDigit; // TODO - does this need to be here?
-    int result = 0;
-    int temp;
-    List<Integer> possiballySadNumber = new ArrayList<>();
+    private List<Integer> possiblySadNumbers = new ArrayList<>();
 
     boolean isHappy(int number) {
+        int temp = number;
 
-        if (possiballySadNumber.contains(temp)) {
+        if (possiblySadNumbers.contains(number)) {
             return false;
         }
-
         temp = getSumOfSquares(number);
 
         if (temp == 1) {
             return true;
         }
-
-        possiballySadNumber.add(temp);
-        isHappy(temp);
-        return false;
+        possiblySadNumbers.add(number);
+        return isHappy(temp);
     }
-
 
     private int getSumOfSquares(int number) {
         int result = 0;
