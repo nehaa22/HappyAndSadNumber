@@ -41,21 +41,23 @@ class HappySadNumberTest {
         HappySad number = new HappySad();
         assertTrue(number.isHappy(10));    }
 
-//    @Test
-//    void givenNumberTwelve_WhenCheck_ThenShouldNotBeHappyNumber() {
-//        HappySad number = new HappySad();
-//        Assertions.assertNotEquals(1,number.isHappy(12));
-//    }
+    @Test
+    void givenNumberNineteen_WhenCheck_ThenShouldBeBeHappyNumber() {
+        HappySad number = new HappySad();
+        assertTrue(number.isHappy(19));
+    }
 
-//    @Test
-//    void givenNumberFifteen_WhenCheck_ThenShouldNotBeHappyNumber() {
-//        HappySad number = new HappySad();
-//        Assertions.assertEquals(1,number.isHappy(19));
-//    }
-
-
-
+    @Test
+    void givenNumberHundred_WhenCheck_ThenShouldNotBeHappyNumber() {
+        HappySad number = new HappySad();
+        assertTrue(number.isHappy(100));
+    }
 }
+
+
+
+
+
 
 
 
