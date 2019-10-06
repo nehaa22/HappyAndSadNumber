@@ -52,6 +52,12 @@ class HappySadNumberTest {
         HappySad number = new HappySad();
         assertTrue(number.isHappy(100));
     }
+
+    @Test
+    void givenNumberTwoThirtyNine_WhenCheck_ThenShouldNotBeHappyNumber() {
+        HappySad number = new HappySad();
+        assertTrue(number.isHappy(239));
+    }
 }
 
 
