@@ -1,51 +1,59 @@
 package com.thoughtworks.bootcamp;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+
+import static org.junit.jupiter.api.Assertions.assertFalse;
 
 class HappySadNumberTest {
 
     @Test
     void givenNumberOne_WhenCheck_ThenShouldBeHappyNumber() {
-        MagicNumber number = new MagicNumber();
-        assertTrue(number.isHappy(1));
+        HappySad number = new HappySad();
+        Assertions.assertTrue(number.isHappy(1));
     }
 
     @Test
     void givenNumberTwo_WhenCheck_ThenShouldNotBeHappyNumber() {
-        MagicNumber number = new MagicNumber();
-        assertFalse(number.isHappy(2));
+        HappySad number = new HappySad();
+        Assertions.assertFalse(number.isHappy(2));
     }
 
-    @Test
-    void givenNumberThree_WhenCheck_ThenShouldNotBeHappyNumber() {
-        MagicNumber number = new MagicNumber();
-        assertFalse(number.isHappy(3));
-    }
+//    @Test
+//    void givenNumberThree_WhenCheck_ThenShouldNotBeHappyNumber() {
+//        HappySad number = new HappySad();
+//        Assertions.assertNotEquals(1,number.isHappy(3));
+//    }
 
     @Test
-    void givenNumberNine_WhenCheck_ThenShouldNotBeHappyNumber() {
-        MagicNumber number = new MagicNumber();
-        assertFalse(number.isHappy(9));
+    void givenNumberSeven_WhenCheck_ThenShouldNotBeHappyNumber() {
+        HappySad number = new HappySad();
+        Assertions.assertTrue(number.isHappy(7));
     }
 
-    @Test
-    void givenNumberTen_WhenCheck_ThenShouldBeHappyNumber() {
-        MagicNumber number = new MagicNumber();
-        assertTrue(number.isHappy(10));
-    }
+//    @Test
+//    void givenNumberNine_WhenCheck_ThenShouldNotBeHappyNumber() {
+//        HappySad number = new HappySad();
+//        Assertions.assertNotEquals(1,number.isHappy(9));
+//    }
+//
+//    @Test
+//    void givenNumberTen_WhenCheck_ThenShouldBeHappyNumber() {
+//        HappySad number = new HappySad();
+//        Assertions.assertEquals(1,number.isHappy(10));
+//    }
 
-    @Test
-    void givenNumberTwelve_WhenCheck_ThenShouldNotBeHappyNumber() {
-        MagicNumber number = new MagicNumber();
-        assertFalse(number.isHappy(12));
-    }
+//    @Test
+//    void givenNumberTwelve_WhenCheck_ThenShouldNotBeHappyNumber() {
+//        HappySad number = new HappySad();
+//        Assertions.assertNotEquals(1,number.isHappy(12));
+//    }
 
-    @Test
-    void givenNumberFifteen_WhenCheck_ThenShouldNotBeHappyNumber() {
-        MagicNumber number = new MagicNumber();
-        assertFalse(number.isHappy(15));
-    }
+//    @Test
+//    void givenNumberFifteen_WhenCheck_ThenShouldNotBeHappyNumber() {
+//        HappySad number = new HappySad();
+//        Assertions.assertEquals(1,number.isHappy(19));
+//    }
 
 
 
